@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiero</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header-wrapper">
+        <a href="/">
+          <img src="./assets/img/logo.png" alt="logo" />
+        </a>
+        <div id="menu">
+          <ul>
+            <li><a href="https://www.behance.net/agenciafiero" target="_blank">Portfolio</a></li>
+            <li><a href="https://www.instagram.com/fierodesigner/?igsh=aWYwbW10NThyZ284&utm_source=qr#" target="_blank">Instagram</a></li>
+            <li><a href="mailto:">Email</a></li>
+          </ul>
+        </div>
+        <div>
+          <a class="contatos" href="https://beacons.ai/agenciafiero" target="_blank">Contatos</a>
+        </div>
+      </div>
+
+      <div id="container-wrapper">
+        <img src="./assets/img/middle.png" alt="middle" />
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%">
+      <div>Copyright © 2025 Fiero. Todos os direitos reservados.</div>
+      <div>Desenvolvido por <a href="https://github.com/drelocatelli" target="_blank">Andressa Lucatelli</a></div>
+    </div>
+  </body>
+</html>
+
+<style>
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 44px;
+    margin-top: 80px;
+    flex-direction: column;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  #header-wrapper {
+    background: #dadadb;
+    border-radius: 20px;
+    padding: 1rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  #header-wrapper #menu {
+    & ul {
+      display: flex;
+      gap: 4rem;
+    }
+
+    & li {
+      list-style: none;
+    }
+
+    & a {
+      background: #8f8e93;
+      padding: 1rem;
+      border-radius: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  #header-wrapper .contatos {
+    background: #8f8e93;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #container-wrapper {
+    margin: 2rem 0;
+  }
+</style>
